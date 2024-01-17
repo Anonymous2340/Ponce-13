@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("nature\ spring.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(3, 32, 49);
+}
+
+.navigation .options {
+    list-style-type: none;
+}
+
+.navigation .options .items {
+    float: left;
+    width: auto;
+    height: 70px;
+}
+
+.navigation .options .items a {
+    font-size: 20px;
+    display: block;
+    padding: 23px 24.31px;
+    text-decoration: none;
+    color: grey;
+}
+
+.navigation .options .items a:hover {
+    color: white;
+    background-color: rgb(7, 46, 69);
+}
+
+/*This is the design of the grid content of the webpage...*/
+.grid {
+    margin: 10px 50px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 300px 600px 300px;
+    grid-template-rows: 170px 100px 500px 300px 400px 300px 200px 180px 200px;
+    height: 2000px;
+    width: 900px;
+    gap: 3px;
+}
+
+#header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#navi {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#aside1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#aside2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#sec {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#art {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#fig {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#figc {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#main {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#sum {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#details {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#foot {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background-color: rgb(207, 206, 206, 0.5);
+    border: 1px solid grey;
+    padding: 10px;
+}
